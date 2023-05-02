@@ -1,5 +1,5 @@
 <?php
-class Tigger {
+class Tiger {
 
         private static $instance;
         private $counter;
@@ -10,7 +10,7 @@ class Tigger {
 
     public static function getInstance(){
         if(!isset($instance)){
-                $instance = new Tigger();
+                $instance = new Tiger();
     }
     return $instance;
 }

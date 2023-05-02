@@ -1,7 +1,7 @@
 <?php
-include 'tigger.php';
+include 'tiger.php';
 
-$tigger = Tigger::getInstance();
+$tiger = Tiger::getInstance();
 
 $tiger->roar();
 $tiger->roar();
@@ -9,6 +9,6 @@ $tiger->roar();
 $tiger->roar();
 $tiger->roar();
 
-echo "\nNums of roar's: ".$tigger->getCounter();
+echo "\nNums of roar's: ".$tiger->getCounter();
 
 ?>
